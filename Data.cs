@@ -114,11 +114,11 @@ namespace ppob
                     PrintNota tukangprint = PrintNota.Instance;
                     var text3 = new List<string>();
                     text3.Add("\n       STRUK  PEMBELIAN       ");
-                    text3.Add("     : PEMBAYARAN PULSA :     ");
+                    text3.Add("  : PEMBAYARAN  PAKET DATA :  ");
                     text3.Add("==============================");
                     text3.Add("NO HANDPHONE   : "+ noTlp);
                     text3.Add("NOMINAL        : Rp"+ price);
-                    text3.Add("Data Sebesar "+ paket +"Gb");
+                    text3.Add("DATA           : "+ paket +" GB");
                     text3.Add("\n       - DETAIL BAYAR -       \n");
                     text3.Add("TUNAI          : "+ cash);    
                     text3.Add("KEMBALIAN      : "+ kembalian);    
